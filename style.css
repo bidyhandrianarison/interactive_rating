@@ -1,0 +1,89 @@
+@font-face {
+    font-family: PlusJakarta;
+    src: url(fonts/PlusJakartaSans-VariableFont_wght.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #141519;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    font-family: PlusJakarta;
+}
+section{
+    max-width: 300px;
+    height: 300px;
+    background-color: #1d242e;
+    padding: 20px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+.thanking{
+    display: none;
+    position: absolute;
+    align-items: center;
+}
+.thanking img{
+    width: 100px;
+}
+.thanking p{
+    padding:0 20px;
+    text-align: center;
+}
+.select{
+    color: #fd7511;
+    font-family: 12px;
+    border-radius: 20px;
+    background-color: #262e30;
+    padding: 5px 10px;
+}
+.number{
+    display: flex;
+    justify-content: space-around;
+}
+button{
+    border: none;
+    border-radius: 200px;
+    padding: 10px 13px;
+    background-color: #262e30;
+    color: white;
+}
+button:hover{
+    background-color:#fd7511 ;
+    cursor: pointer;
+}
+button:focus{
+    background-color:#7c8898 ;
+}
+.rating img{
+    padding: 10px;
+    background-color: #262e30;
+    border-radius: 50%;
+}
+input{
+    padding: 8px 5px;
+    border-radius: 30px;
+    background-color:#fd7511 ;
+    color:white;
+    border: none;
+}
+input:hover{
+    cursor: pointer;
+    background: white;
+    color:#fd7511 ;
+}
+p{
+    font-size: 12px;
+    font-weight: 600;
+    color: #7c8898;
+    line-height: 0.5cm;
+}
